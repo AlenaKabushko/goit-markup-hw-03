@@ -32,6 +32,11 @@ img {
     display: block;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -163,9 +168,6 @@ img {
 /* ===================features=================== */
 
 .features {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
     background-color: #e67373;
 }
 
@@ -202,9 +204,6 @@ img {
 /* ===================comand=================== */
 
 .comand {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
     background-color: var(--comand-bgr-color);
 }
 
@@ -282,7 +281,13 @@ img {
 
 /* ===================filter=================== */
 
+.filter {
+    background-color: #000;
+}
+
 .filter-btn {
+    margin-bottom: 34px;
+
     background-color: var(--filter-btn-bgr-color);
     color: var(--filter-btn-text-color);
 
@@ -302,7 +307,13 @@ img {
     color: var(--another-text-color);
 }
 
+.examples-img {
+    margin-bottom: 20px;
+}
+
 .examples-title {
+    margin-bottom: 4px;
+
     color: var(--title-text-color);
 
     font-size: 18px;
