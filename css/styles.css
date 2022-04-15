@@ -326,6 +326,11 @@ img {
 
 /* ===================filter=================== */
 
+.filter {
+    margin-bottom: -30px;
+
+}
+
 .filter-list {
     display: flex;
     justify-content: center;
@@ -371,12 +376,8 @@ img {
     margin-right: 30px;
 }
 
-.examples-list-item:nth-last-child() {
-    margin-bottom: 50px;
-}
-
 .examples-img {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .examples-title {
@@ -390,9 +391,17 @@ img {
 }
 
 .examples-description {
-    padding-bottom: 20px;
-
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+}
+
+.card-border {
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+
+    padding-bottom: 20px;
+    padding-left: 24px;
+    margin-bottom: 30px;
 }
