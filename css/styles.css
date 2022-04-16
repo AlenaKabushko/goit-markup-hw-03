@@ -42,6 +42,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    /* outline: 1px solid tomato; */
 }
 
 .visually-hidden {
@@ -175,6 +176,9 @@ img {
 
 .hero-btn {
     margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
 
     background-color: var(--akcent-color);
     color: var(--another-text-color);
@@ -194,6 +198,10 @@ img {
 
 .features-list {
     display: flex;
+}
+
+.features-list-item {
+    width: 270px;
 }
 
 .features-list-item:not(:last-child) {
@@ -258,8 +266,10 @@ img {
     margin-right: 30px;
 }
 
-.comand-img {
-    margin-bottom: 30px;
+.comand-list-content {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .comand-title-name {
@@ -326,22 +336,17 @@ img {
 
 /* ===================filter=================== */
 
-.filter {
-    margin-bottom: -30px;
-
-}
-
 .filter-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .filter-list-item:not(:last-child) {
     margin-right: 8px;
 }
 
-.filter-btn {
-    margin-bottom: 50px;
+.filter-btn {    
     padding: 6px 22px;
     border-radius: 4px;
     border: 0;
@@ -376,8 +381,8 @@ img {
     margin-right: 30px;
 }
 
-.examples-img {
-    padding-bottom: 20px;
+.examples-list-item:nth-last-of-type(n+4) {
+    margin-bottom: 30px;
 }
 
 .examples-title {
@@ -401,7 +406,5 @@ img {
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
 
-    padding-bottom: 20px;
-    padding-left: 24px;
-    margin-bottom: 30px;
+    padding: 20px 24px;
 }
